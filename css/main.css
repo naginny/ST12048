@@ -1,0 +1,345 @@
+body {
+    background-color: lightgray;
+    font-family: "Arial", Verdana, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+	background-image: url('../img/pattern-8.png') ;
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+header{
+	position: relative;
+}
+header nav{
+	background-color: #404040;
+	background-image: url('../img/pattern-10.png');
+	background-repeat: repeat;
+	width: 1040px;
+	display: block;
+	margin: auto;
+	border-radius: 2px;
+}
+#logo {
+	max-width: 960px;
+    height: 170px;
+    font-size: 20px;
+	margin: auto;
+    color: white;
+    /*text-shadow: 1px 1px 2px black, 0 0 1em orange;*/
+    font-weight: bold;
+    /*background-image: url('../img/plant2.png') ;*/
+    background-position: top right;
+	position: relative;
+}
+#logo img{
+	float: right;
+	height: 170px;
+	margin-right: 35px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+#logo h1{
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Crafty Girls', cursive;
+	text-shadow: 1px 1px 2px black, 0 0 1em #FFE7AC;
+}
+#logo h3{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #FFE7AC;
+	letter-spacing: 1.3px;
+	/*text-shadow: 1px 1px 2px black, 0 0 1em #88774E;*/
+}
+
+#mainmenu{
+    max-width: 960px;
+    margin: auto;
+    height:50px;
+    list-style-type:none;
+    font-size: 20px;
+	padding-left: 0px;
+}
+#mainmenu li:nth-child(1) a{
+	padding-left: 0px;
+}
+#mainmenu a{
+    color: white;
+    display:inline;
+    float:left;
+    text-align:center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+#mainmenu a:link{
+    color: white;
+    text-decoration: none;
+}
+#mainmenu a:hover{
+    color: #FFE7AC;
+	text-shadow: 1px 1px 2px black, 0 0 1em #88774E;
+}
+#mainmenu a:active{
+    color: #D4C08F;
+}
+.container{
+	width: 80%;
+	padding-top: 60px;
+	color: white;
+	max-width: 960px;
+	min-height: 400px;
+	margin: auto;
+}
+.transparentBg{
+	background-color:rgba(255,255,255,0.2);
+	margin-top: 60px;
+	margin-bottom: 60px;
+	padding-bottom: 40px;
+}
+.container article{
+	margin-left: 20px;
+}
+.container h2{
+	margin-top: 30px;
+	
+	color: #1F1F1F;
+}
+.container p{
+	padding-left: 20px;
+}
+q{
+	color: #FFE7AC;
+	font-style: italic;
+	font-size: 25px;
+}
+.map{
+	max-width: 960px;
+	height: 400px;
+	margin: auto;
+	/*-webkit-filter: grayscale(1);*/
+}
+
+footer {
+	height: 80px;
+	width: 1040px;
+	margin-left: auto;
+	margin-right: auto;
+    color: white;
+    text-align: center;
+    background-color: #404040;
+	background-image: url('../img/pattern-10.png') ;
+	background-repeat: repeat;
+	padding-top: 2px;
+	/*position: fixed;*/
+	bottom: 0px;
+}
+footer p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+footer img{
+	height: 30px;
+}
+
+.news_item{
+	max-width: 960px;
+	height: 150px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color:rgba(255,255,255,0.2);
+/*	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;*/
+	position: relative;
+}
+.news_item .date{
+	color: #1F1F1F;
+	position: absolute;
+	bottom: 10px;
+	right: 25px;
+}
+.news_item a{
+	color: #1F1F1F;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.pagination{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+}
+.pagination a{
+	color: #1F1F1F;
+	font-weight: bold;
+	text-decoration: none;
+}
+#contact_info{
+	background-color:rgba(255,255,255,0.2);
+	margin-top: 30px;
+	margin-bottom: 40px;
+	height: 150px;
+	width: 100%;
+	padding-top: 20px;
+	color: #1F1F1F;
+}
+#contact_info p{
+	padding-left: 0px;
+	
+}
+.contacts{
+	display: inline-block;
+	height: 150px;
+	width: 310px;
+	text-align: center;
+	vertical-align: top;
+}
+#searchForm{
+	display: inline-block;
+}
+#searchForm button{
+	width: 90px;
+	height: 33px;
+	margin-left: 20px;
+	color: #1F1F1F;
+	font-weight: bold;
+	border-radius: 3px;
+	font-size: 18px;
+}
+.ads_search{
+	margin: auto;
+	width: 805px;
+	height: 60px;
+	color: #1F1F1F;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+	margin-bottom: 40px;
+}
+.ads_search select{
+	height: 30px;
+	margin-right: 15px;
+}
+.ad_item{
+	background-color:rgba(255,255,255,0.3);
+	height: 50px;
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	vertical-align: middle;
+}
+.ad_item a{
+	color: #1F1F1F;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ad_info_cont{
+	float: right;
+}
+.ad_info_cont .ad_info{
+	display: inline-block;
+}
+.newAd{
+	font-size: 15px;
+	color: #1F1F1F;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin-top: -40px;
+}
+.login-block{
+    width: 300px;
+    margin: auto;
+}
+.login-item{
+    margin: 15px 0;
+}
+.login-title{
+    display: inline-block;
+    width: 100px;
+}
+.reg-block, .add-block{
+    width: 400px;
+    margin: auto;
+}
+.reg-item, .add-item{
+    margin: 15px 0;
+}
+.reg-title, .add-title{
+    display: inline-block;
+    width: 150px;
+}
+.welcome-msg{
+    position: absolute;
+    padding: 5px;
+    background: rgba(195, 195, 195, .6);
+    font-size: 18px;
+    line-height: 18px;
+    border: 0;
+	bottom: -28px;
+	right: 204px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.error{
+	background-color: lightcoral;
+}
+.article_cont div{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+.ad_cont, .article_cont{
+	color: #1F1F1F;
+}
+.ad_cont h3, .article_cont h3{
+	text-align: center;
+	color: white;
+	margin-bottom: 80px;
+}
+.ad_cont div{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.ad_cont h4{
+	color: #1F1F1F;
+	text-align: left;
+	margin-left: 160px;
+}
+.messages{
+	color: darkred;
+	margin-left: 255px;
+}
+#users_table{
+	width: 760px;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 2px solid white;*/
+	background: rgba(195, 195, 195, .6);
+}
+#users_table th{
+	background-color: #1F1F1F;
+	height: 30px;
+}
+#users_table tr td{
+	border: 1px solid gray;
+	height: 30px;
+	color: #1F1F1F;
+}
+
